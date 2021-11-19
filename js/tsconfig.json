@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES2019",
+		"module": "CommonJS",
+		"outDir": "dist",
+		"lib": ["DOM", "ESNext"],
+		"strict": true,
+		"allowJs": false,
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"typeRoots": ["./node-modules/@types/"],
+		"types": ["jest", "node", "@types/jest"]
+	},
+	"exclude": ["node_modules"],
+	"include": ["src"]
+}
